@@ -1,0 +1,121 @@
+*{
+    margin: 0px;
+}
+#sectop{
+    height: 100vh;
+    width: 100vw;
+    background-color: #FFFCF9;
+    color: black;
+    text-align: center;
+}
+#tfirst{
+    height: 12vh;
+    display: flex;
+    align-items: center;
+    width: 99vw;
+    padding-left: 1vw;
+    font-size: 1.5vw;
+    color: white;
+    background-color: #272525;
+}
+#tsec{
+    height: 88vh;
+    width: 25vw;
+    display: flex;
+    align-items: center;
+    position: fixed;
+    color: black;
+    background-color: #eeeeee;
+}
+#tsec p{
+    width: inherit;
+    text-align: center;
+}
+#login, #logout{
+    height: 7vh;
+    width: 14vw;
+    border: none;
+    background-color: darkcyan;
+    color: white;
+    outline: none;
+    cursor: pointer;
+}
+#text{
+    padding-top: 41.5vh;
+    margin-left: 25vw;
+    display: none;
+}
+#text button{
+    height: 7vh;
+    width: 14vw;
+    background: none;
+    border: #FF6978 solid 1px;
+    border-radius: 20px;
+    outline: none;
+    cursor: pointer;
+}
+#logout{
+    display: none;
+}
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    padding-top: 100px; /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+  }
+  
+  /* Modal Content */
+  .modal-content {
+    background-color: #fefefe;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%;
+    height: 70vh;
+  }
+  
+  /* The Close Button */
+  .close {
+    color: #aaaaaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+  }
+  
+  .close:hover,
+  .close:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+  }
+
+.lab{
+    width: 20vw;
+}
+.lab label{
+    width: 10vw;
+}
+.lab1{
+    width: 30vw;
+}
+.lab input{
+    width: 10vw;
+    float: right;
+}
+textarea{
+    width: 10vw;
+    float: right;
+}
+#sys{
+    text-align: center;
+    height: 5vh;
+    float: right;
+    width: 10vw;
+}

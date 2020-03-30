@@ -1,0 +1,71 @@
+<html>
+    <head>
+        <title>Setup@DocPat</title>
+        <link rel="stylesheet" href="style1.css">
+        <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    </head>
+    <body>
+        <div id="sectop">
+            <div id="tfirst">DocPat Auth Service</div>
+            <div id="tsec"><p><button id="login" onclick="login()">Login With Google</button><button id="logout" onclick="logout()">Logout</button></p></div>
+            <p id="text"><span>Hello, </span><span id="userName"></span><br><span>User ID: </span><span id="uid"></span><br>
+            <br><button id="sclinic" onclick="sclinic()">Setup Clinics</button>&nbsp;
+        <button id="sprofile" onclick="sprofile()">Setup Profile</button></p>
+        </div>
+        <div id="myModal" class="modal">
+
+            <!-- Modal content -->
+            <div class="modal-content">
+              <span class="close" id="cl1">&times;</span>
+              <p id="for">
+                  <div class="lab1"><label>User Name: </label><span id="uname"></span></div><br>
+                  <div class="lab1"><label>User ID: </label><span id="uid1"></span></div><br><br>
+                  <div class="lab"><label>Name: </label><input type="text" id="name"></span></div><br>
+                  <div class="lab"><label>Phone No.: </label><input type="tel" id="num"></span></div><br>
+                  <div class="lab"><label>Address: </label><textarea id="add"></textarea></span></div><br><br>
+                  <div class="lab"><label>Specialization: </label><input type="text" id="sp"></span></div><br><br>
+                  <div class="lab"><button id="sys" onclick="sprof()">Submit</button></div>
+              </p>
+            </div>
+          
+          </div>
+
+          <div id="myModal1" class="modal">
+
+            <!-- Modal content -->
+            <div class="modal-content">
+              <span class="close" id="cl2">&times;</span>
+              <p id="for">
+                  Hello, <span id="uidd"></span><br><br>
+                  <br>
+                  Enter Your Clinic Name (2 Max): -
+                  <br>
+                  <br>
+                  <div class="lab"><label>Clinic Name: </label><input type="text" id="cname"></span></div><br>
+                  <div class="lab"><label>Address: </label><textarea id="cadd"></textarea></span></div><br><br>
+                  <div class="lab"><label>Visiting Hours: <textarea id="ctime"></textarea></label></div><br><br>
+                  <div class="lab"><label>Tel No.: </label><input type="tel" id="ctel"></span></div><br>
+                  <div class="lab"><button id="sys1" onclick="scli()">Submit</button></div>
+                  <br><br>
+                  
+                  <div class="lab"><label>Clinic Name: </label><input type="text" id="cname1"></span></div><br>
+                  <div class="lab"><label>Address: </label><textarea id="cadd1"></textarea></span></div><br><br>
+                  <div class="lab"><label>Visiting Hours: <textarea id="ctime1"></textarea></label></div><br><br>
+                  <div class="lab"><label>Tel No.: </label><input type="tel" id="ctel1"></span></div><br>
+                  <div class="lab"><button id="sys2" onclick="scli1()">Submit</button></div>
+
+              </p>
+            </div>
+          
+          </div>
+
+
+
+        <script src="https://www.gstatic.com/firebasejs/7.13.1/firebase-app.js"></script>
+        <script src="https://www.gstatic.com/firebasejs/7.13.1/firebase-analytics.js"></script>
+        <script src="https://www.gstatic.com/firebasejs/7.13.1/firebase-auth.js"></script>
+        <script src="https://www.gstatic.com/firebasejs/7.13.1/firebase-firestore.js"></script>
+        <script src="scr.js"></script>
+
+    </body>
+</html>

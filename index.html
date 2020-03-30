@@ -1,0 +1,106 @@
+<html>
+    <head>
+        <title>DocPat</title>
+        <link rel="stylesheet" href="style.css">
+        <meta name="viewport" content="width=device-width">
+        <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    </head>
+    <body>
+        <div id="fdiv">
+            <div class="text tt">DocPat</div>
+            <div id="menu">
+                <div class="item">Home</div>
+                <div class="item">What We Do</div>
+                <div class="item">Assistant</div>
+                <div class="item">Reach Out</div>
+                <div class="item">Login</div>
+            </div>
+        </div>
+        <div id="intro">
+            <div class="overlaydark">
+                
+            </div>
+        </div>
+            <div class="hold">
+                <span class="text introtxt">The Doctor's Assistant</span><br><br><br>
+            </div>
+            <div class="bborder"></div><br>
+            <div class="content_holder_c_aligned">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque euismod leo augue, ac venenatis justo cursus eget. Donec finibus non est nec placerat. Etiam fringilla laoreet ipsum vel viverra. Integer porttitor, elit lacinia accumsan facilisis, erat nibh venenatis velit, vel finibus sapien tortor vitae mauris. Proin dignissim, turpis ut sollicitudin dapibus, lorem quam lacinia enim, vel bibendum sapien tellus in lectus. Phasellus et nulla a velit vulputate viverra. Cras vel pulvinar ligula. Donec in venenatis mauris. Aenean nec sodales elit, vitae pulvinar ante. Suspendisse rutrum non dui nec consectetur.
+            </div><br><br><br>
+            <div id="gll">
+                <img src="/assets/p1.jpg">
+                <img src="/assets/p2.jpg">
+                <img src="/assets/p3.jpg">
+            </div>
+            <br><br><br><br><br><br><br><br>
+            <div class="hold">
+                <span class="text introtxt">What We Do</span><br><br><br>
+            </div>
+            <div class="bborder"></div><br><br>
+            <div class="content_holder_c_aligned">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque euismod leo augue, ac venenatis justo cursus eget. Donec finibus non est nec placerat. Etiam fringilla laoreet ipsum vel viverra. Integer porttitor, elit lacinia accumsan facilisis, erat nibh venenatis velit, vel finibus sapien tortor vitae mauris. Proin dignissim, turpis ut sollicitudin dapibus, lorem quam lacinia enim, vel bibendum sapien tellus in lectus. Phasellus et nulla a velit vulputate viverra. Cras vel pulvinar ligula. Donec in venenatis mauris. Aenean nec sodales elit, vitae pulvinar ante. Suspendisse rutrum non dui nec consectetur.
+                
+            </div><br><br>
+            <div class="hold">
+                <span class="text introtxt">Assistant</span><br><br><br>
+            </div>
+            <div class="bborder"></div><br><br>
+            <div class="content_holder_c_aligned">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque euismod leo augue, ac venenatis justo cursus eget. Donec finibus non est nec placerat. Etiam fringilla laoreet ipsum vel viverra. Integer porttitor, elit lacinia accumsan facilisis, erat nibh venenatis velit, vel finibus sapien tortor vitae mauris. Proin dignissim, turpis ut sollicitudin dapibus, lorem quam lacinia enim, vel bibendum sapien tellus in lectus. Phasellus et nulla a velit vulputate viverra. Cras vel pulvinar ligula. Donec in venenatis mauris. Aenean nec sodales elit, vitae pulvinar ante. Suspendisse rutrum non dui nec consectetur.
+            </div><br><br>
+            <div class="hold">
+                <span class="text introtxt">Reach Out</span><br><br><br>
+            </div>
+            <div class="bborder"></div><br><br>
+            <div class="content_holder_c_aligned">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque euismod leo augue, ac venenatis justo cursus eget. Donec finibus non est nec placerat. Etiam fringilla laoreet ipsum vel viverra. Integer porttitor, elit lacinia accumsan facilisis, erat nibh venenatis velit, vel finibus sapien tortor vitae mauris. Proin dignissim, turpis ut sollicitudin dapibus, lorem quam lacinia enim, vel bibendum sapien tellus in lectus. Phasellus et nulla a velit vulputate viverra. Cras vel pulvinar ligula. Donec in venenatis mauris. Aenean nec sodales elit, vitae pulvinar ante. Suspendisse rutrum non dui nec consectetur.
+                
+            </div><br><br>
+            <div class="hold">
+                <span class="text introtxt">Login</span><br><br><br>
+            </div>
+            <div class="bborder"></div><br><br>
+            <div class="content_holder_c_aligned">
+                <button id="login" onclick="login()">
+                    Proceed
+                </button>
+            </div><br><br>
+            <p id="gr"></p>
+            <p id="gr1"></p>
+            <br>
+            <div id="patientdetails">
+                <span>Enter Patient Details: -</span><br><br>
+                <label>
+                    Name: 
+                </label><input id="name" type="text" /><br>
+                <label>
+                    Phone Number: 
+                </label><input id="num" type="tel" /><br>
+                <label>
+                    Email: 
+                </label><input type="email" id="email" /><br>
+                <label>
+                    Blood Group: 
+                </label><input type="text" id="bg" maxlength="3" /><br>
+                <label>
+                    Height (in cms.): 
+                </label><input type="number" id="height" maxlength="3" /><br>
+                <label>
+                    Weight (in kgs.): 
+                </label><input type="number" id="weight" /><br>
+                <label>
+                    Check Up Date:
+                </label><input type="date" id="datec" /><br>
+                <label>
+                    Follow Up Date:
+                </label><input type="date" id="datef"><br><br>
+                <button id="Submit">Submit</button>
+            </div><br>
+            <script src="https://www.gstatic.com/firebasejs/7.13.1/firebase-app.js"></script>
+            <script src="https://www.gstatic.com/firebasejs/7.13.1/firebase-analytics.js"></script>
+            <script src="https://www.gstatic.com/firebasejs/7.13.1/firebase-auth.js"></script>
+            <script src="https://www.gstatic.com/firebasejs/7.13.1/firebase-firestore.js"></script>
+            <script src="musflex.js"></script>        
+        </body>
+</html>

@@ -1,0 +1,163 @@
+*{
+    margin: 0px;
+}
+::-webkit-scrollbar{
+    display: none;
+}
+#fdiv{
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    height: 12vh;
+    opacity: 0.8;
+    background-color: #eeeeee;
+}
+.tt{
+    color: darkred;
+    font-weight: 500;
+    font-family: Raleway;
+    cursor: pointer;
+    margin-left: 3vw;
+    font-size: 1.5vw;
+    letter-spacing: 0.15vw;
+}
+#menu{
+    margin-left: 50vw;
+    display: table;
+    width: 50vw;
+    height: 12vh;
+    border: none;
+}
+.item{
+    height: inherit;
+    font-family: Raleway;
+    width: 12.5vw;
+    vertical-align: middle;
+    display: table-cell;
+    text-align: center;
+}
+.item:hover{
+    background-color: darkred;
+    color: white;
+    cursor: pointer;
+}
+#intro{
+    height: 70vh;
+    background-attachment: fixed;
+    background-image: url(/assets/bg1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.overlaydark{
+    display: flex;
+    align-items: center;
+    height: inherit;
+    text-align: center;
+    width: inherit;
+    background-color: rgba(0,0,0,0.4);
+}
+.hold{
+    width: 100vw;
+    text-align: center;
+    padding-top: 5vh;
+    color: #191414;
+}
+.introtxt{
+    font-family: Raleway Thin;
+    font-size: 3vw;
+    text-align: center;
+    width: 100vw;
+}
+.bborder{
+    height: 1px;
+    width: 50vw;
+    margin-left: 25vw;
+    border-bottom: 1px #1914142d solid;
+}
+.content_holder_c_aligned{
+    text-align: center;
+    font-weight: bold;
+    font-family: Raleway Thin;
+    width: 50vw;
+    margin-left: 25vw;
+    line-height: 5vh;
+}
+#gll{
+    height: 30vh;
+    width: 100vw;
+    text-align: center;
+}
+#gll img{
+    padding: 20px;
+    height: inherit;
+}
+#gll img:hover{
+    animation: br 0.5s 1 forwards;
+}
+@keyframes br{
+    from{
+        border-radius: 0px;
+    }
+    to{
+        border-radius: 50%;
+    }
+}
+#login{
+    height: 10vh;
+    width: 15vw;
+    background-color: green;
+    color: white;
+    border: none;
+    outline: none;
+    border-radius: 30px;
+}
+#gr{
+    text-align: center;
+}
+#logout{
+    height: 10vh;
+    width: 15vw;
+    background-color: green;
+    color: white;
+    border: none;
+    outline: none;
+    display: none;
+    border-radius: 30px;
+}
+#patientdetails{
+    height: 60vh;
+    width: 100vw;
+    text-align: center;
+}
+#patientdetails label{
+    display: inline-block;
+    width: 10vw;
+}
+#patientdetails input{
+    margin: 10px;
+    width: 10vw;
+    height: 3vh;
+    margin-left: 2vw;
+    text-align: center;
+}
+#Submit{
+    height: 5vh;
+    width: 10vw;
+    text-align: center;
+}
+#patientdetails{
+    display: none;
+}
+#gr, #gr1{
+    text-align: center;
+}
+#setup{
+    height: 10vh;
+    width: 15vw;
+    background-color: black;
+    color: white;
+    text-align: center;
+    outline: none;
+    border: none;
+    border-radius: 20px;
+}
