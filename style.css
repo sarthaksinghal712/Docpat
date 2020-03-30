@@ -44,7 +44,7 @@
 #intro{
     height: 70vh;
     background-attachment: fixed;
-    background-image: url(/assets/bg1.jpg);
+    background-image: url(https://raw.githubusercontent.com/sarthaksinghal712/Docpat/master/assets/bg1.jpg);
     background-repeat: no-repeat;
     background-size: cover;
 }
