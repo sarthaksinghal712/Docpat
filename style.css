@@ -161,3 +161,6 @@
     border: none;
     border-radius: 20px;
 }
+div:not(#only){
+    display: none;
+}
