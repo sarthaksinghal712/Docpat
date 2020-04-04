@@ -2,6 +2,9 @@
     <head>
         <title>DocPat</title>
         <link rel="stylesheet" href="style2.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+
     </head>
     <body>
         <div id="topdiv">
@@ -9,22 +12,44 @@
                 <div class="overlaydark">
                 <div id="box"><span id="title1">DocPat</span><br><br>
                 <span id="head1">The Doctor's Assistant</span></div>
-                <!-- <div id="me">
-                    <div class="section">Home</div>
-                    <div class="section">Home</div>
-                    <div class="section">Home</div>
-                    <div class="section">Home</div>
-                    <div class="section">Home</div>
-                </div> -->
             </div></div>
             <div id="me">
                 <div class="section">Home</div>
-                <div class="section">Home</div>
-                <div class="section">Home</div>
-                <div class="section">Home</div>
-                <div class="section">Home</div>
+                <div class="section">Login</div>
+
         </div>
         <hr>
         </div>
+        <div id="div1">
+            <div id="intro">
+                - Hello, <span id="uu"></span> -<br><br><br>
+                <a class="weatherwidget-io" href="https://forecast7.com/en/28d4677d03/gurugram/" data-label_1="GURUGRAM" data-label_2="WEATHER" data-font="Open Sans" data-icons="Climacons Animated" data-days="5" data-theme="original" data-basecolor="#203e4b" >GURGAON WEATHER</a>
+                <script>
+                !function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src='https://weatherwidget.io/js/widget.min.js';fjs.parentNode.insertBefore(js,fjs);}}(document,'script','weatherwidget-io-js');
+                </script>
+                <br><br>
+                <div id="form_login">
+                    Login: -<br><br><div id="ll"><button onclick="login()" id="auth">Using Google</button><span id="UN"></span><span>User Name: &nbsp;</span></div><br><br>
+                    
+                </div>
+                <br><br><br>
+                Clinics<br><br>
+                <table id="tid">
+                    <tbody>
+                        <tr>
+                            <td id="cl1"></td>
+                            <td id="cl2"></td>
+                        </tr>
+                    </tbody>
+                </table>
+                
+                <br>
+            </div>
+        </div>
+        <script src="https://www.gstatic.com/firebasejs/7.13.1/firebase-app.js"></script>
+        <script src="https://www.gstatic.com/firebasejs/7.13.1/firebase-analytics.js"></script>
+        <script src="https://www.gstatic.com/firebasejs/7.13.1/firebase-auth.js"></script>
+        <script src="https://www.gstatic.com/firebasejs/7.13.1/firebase-firestore.js"></script>
+        <script src="access.js"></script>
     </body>
 </html>

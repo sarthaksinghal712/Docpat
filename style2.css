@@ -20,7 +20,7 @@
     color: white;
 }
 #title1{
-    font-size: 5vw;
+    font-size: 250%;
     text-transform: uppercase;
     width: 100vw;
     text-align: center;
@@ -47,7 +47,7 @@
     text-align: center;
 }
 #head1{
-    font-size: 1.5vw;
+    font-size: 200%;
 }
 .overlaydark{
     display: table-cell;
@@ -56,4 +56,68 @@
     background-color: rgba(0,0,0,0.6);
     height: inherit;
     width: inherit;
+}
+#div1{
+    /* height: calc(100vh - 12vh); */
+    height: inherit;
+    width: 100vw;
+    font-size: 100%;
+    text-align: center;
+}
+.section:hover{
+    background-color: firebrick;
+    color: #fff;
+    cursor: pointer;
+}
+#intro{
+    font-family: Raleway Thin;
+    font-weight: bolder;
+    font-size: 300%;
+}
+.weatherwidget-io{
+    width: 75%;
+    margin-left: 12.5%;
+}
+#form_login{
+    width: 75%;
+    margin-left: 13%;
+    text-align: left;
+    font-size: 50%!important;
+}
+#auth{
+    height: 5vh;
+    font-family: Roboto;
+    background-color: transparent;
+    outline: none;
+    border: 1px solid #000;
+    width: 25vw;
+    border-radius: 10px;
+    background-color: #203e4b;
+    color: white;
+    cursor: pointer;
+}
+#ll{
+    width: 98%;
+}
+#ll span{
+    text-align: left;
+    float: right;
+    font-size: 75%;
+    height: inherit;
+    padding-top: 7px;
+}
+#tid{
+    margin-left: 12.5%;
+    width: 75%;
+    background-color:#203e4b;
+    color: white;
+    text-align: center;
+    height: 25%;
+}
+#tid td{
+    cursor: pointer;
+    width: 50%;
+}
+#tid td:nth-of-type(1){
+    border-right: 1px solid #fff;
 }
